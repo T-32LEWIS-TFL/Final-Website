@@ -7,6 +7,28 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald&display=swap">
     <title>My Final Website</title>
+    <!--CHATGPT PROVIDED IMAGE SETUP | START-->
+    <script>
+        var images = ["Undertale_library.png", "Susie_poster.jpg", "Papyrus_Sprite.webp"];
+        var currentIndex = 0;
+
+        function showImage(index) {
+            var img = document.getElementById("display");
+            currentIndex = index;
+            img.src = images[currentIndex];
+        }
+
+        function nextImage() {
+            currentIndex = (currentIndex + 1) % images.length;
+            showImage(currentIndex);
+        }
+
+        function prevImage() {
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            showImage(currentIndex);
+        }
+    </script>
+    <!--CHATGPT PROVIDED IMAGE SETUP | END-->
 </head>
 <body>
     <!--HEADER | START-->
