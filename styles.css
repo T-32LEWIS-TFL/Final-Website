@@ -45,14 +45,16 @@ button:active {
     flex-direction: row;
     align-items: center;
 }
-.media-container {
-    background-color: #76D6FF;
-    height: 400px;
-    display: flex;
+.section-four {
     align-items: center;
     justify-content: center;
 
 }
+.mediacontent {
+    font-family: 'Oswald', 'filicudi-color-pride', Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+    font-size: 20 px;
+}
 .image {
-    border: 10px solid #FFFFFF;
+    text-align: center;
 }
