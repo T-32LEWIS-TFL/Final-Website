@@ -6,7 +6,53 @@ h1{
     font-size: 60px;
     text-align: center;
 }
+h2{
+    font-family: 'Oswald', 'filicudi-color-pride', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
 header {
     background-color: #76D6FF;
     padding: 10px 0px 10px 0px;
+}
+.section-one {
+    background-color: #F2F2F2;
+    padding: 10px 0px 10px 0px;
+}
+.section-three {
+    background-color: #76D6FF;
+    padding: 5px 0px 5px 0px;
+}
+button {
+    border: 0px solid #000000;
+    border-radius: 15px;
+    font-family: 'Oswald', 'filicudi-color-pride', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding: 10px;
+    margin: 10px;
+    transition-duration: .4s;
+}
+button:hover {
+    background-color: #c6c6c6;
+    color: #000000;
+}
+button:active {
+    background-color: #76D6FF;
+    color: #000000;
+}
+.container-navigation {
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+.media-container {
+    background-color: #76D6FF;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.image {
+    border: 10px solid #FFFFFF;
 }
