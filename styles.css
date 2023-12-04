@@ -82,6 +82,18 @@ img {
     height: 648px;
 }
 
+.theCARPposters {
+    width: 461px;
+    height: 900px;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.rightposter {
+    text-align: left;
+}
+
 
 /*???????????????????????*/
 
