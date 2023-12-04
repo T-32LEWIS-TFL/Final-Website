@@ -4,7 +4,7 @@ body {
     background-position: center top;
     background-size: 20%;
     margin: 100px auto;
-    max-width: 1000px;
+    max-width: 935px;
     justify-content: center;
     align-items: center;
 }
@@ -111,7 +111,7 @@ img {
     width: 458px;
     height: 648px;
     float: left;
-    margin-right: 10px;
+    margin-right: 20px;
     margin-bottom: 10px;
 }
 
@@ -119,12 +119,11 @@ img {
     width: 458px;
     height: 648px;
     float: right;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-bottom: 10px;
 }
+
 /*???????????????????????*/
-
-
 
 .container-navigation {
     display: flex;
