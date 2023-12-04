@@ -1,60 +1,189 @@
-body{
-    background-color: #F2F2F2;
-}
-h1{
-    font-family: 'Oswald', 'filicudi-color-pride', Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 60px;
-    text-align: center;
-}
-h2{
-    font-family: 'Oswald', 'filicudi-color-pride', Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-    text-align: center;
+body {
+    background-image: url("thing[PNG].png");
+    background-repeat: repeat;
+    background-position: center top;
+    background-size: 20%;
+    margin: 100px;
 }
 header {
-    background-color: #76D6FF;
+    background-color: rgb(255, 240, 155);
     padding: 10px 0px 10px 0px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
 }
+
+h3 {
+    background-color: rgb(255, 155, 217);
+    padding: 10px 0px 10px 0px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+
 .section-one {
-    background-color: #F2F2F2;
-    padding: 10px 0px 10px 0px;
+    border: 1px solid black;
+    background-color: rgb(255, 240, 155);
+    border-radius: 5px;
 }
-.section-three {
-    background-color: #76D6FF;
-    padding: 5px 0px 5px 0px;
+
+.section-two {
+    border: 1px solid black;
+    background-color: rgb(255, 240, 155);
+    border-radius: 5px;
 }
-button {
-    border: 0px solid #000000;
-    border-radius: 15px;
-    font-family: 'Oswald', 'filicudi-color-pride', Verdana, Geneva, Tahoma, sans-serif;
-    font-size: large;
-    padding: 10px;
-    margin: 10px;
-    transition-duration: .4s;
+
+.caption {
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
 }
-button:hover {
-    background-color: #C6C6C6;
-    color: #000000;
+
+.container > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
 }
-button:active {
-    background-color: #76D6FF;
-    color: #000000;
+
+.typosym1 {
+    width: 275px;
+    height: 275px;
 }
+
+.typographic-systems > div {
+    width: 283px;
+    margin: 16px;
+}
+
+.carp-poster > div {
+    width: 466px;
+    margin: 16px;
+}
+
+img {
+    border: 1px solid black;
+}
+
+.carpposter1 {
+    width: 458px;
+    height: 648px;
+}
+
+
+
+
+
+
 .container-navigation {
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
 }
-.section-four {
-    align-items: center;
-    justify-content: center;
+
+.push {
+    margin-left: auto;
+}
+
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin: 0px 3px;
+    border: 1px solid limegreen;
+    border-radius: 10px;
+    background-color: aliceblue;
 
 }
+
+.media-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 15px 25px 15px 15px
+
+}
+
+.media-container .mediacontent {
+    flex: 1;
+    padding: 10px;
+}
+
 .mediacontent {
-    font-family: 'Oswald', 'filicudi-color-pride', Verdana, Geneva, Tahoma, sans-serif;
-    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: navy;
     font-size: 20 px;
 }
-.image {
-    text-align: center;
+
+button {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #ffc6d0;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+    padding: 10px;
+    margin: 2px;
+}
+
+button:hover {
+    background-color: #eb92a2;
+}
+
+button:active {
+    background-color: #c73e57;
+}
+
+.button-one-section {
+
+    background-color: #BF0426;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-top-img {
+    border: 3px solid rgb(255, 29, 29);
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+    width: 70%;
+}
+
+/*
+
+p {
+    font-family: monospace;
+    font-size: center;
+    color: lightpink;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lightyellow;
+    font-style: italic;
+    text-align: right;
+}
+
+/* THE CAKE PART (^.^) */
+
+/*
+
+.cake-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
 }
