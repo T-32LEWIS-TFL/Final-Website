@@ -1,13 +1,24 @@
+/*##############################*/
+/*BODY LAYER*/
+/*##############################*/
+
+/*APPEARANCE OF BACKGROUND AND EVERTHING IN THE BODY*/
 body {
     background-image: url("thing3[PNG].png");
     background-repeat: repeat;
     background-position: center top;
     background-size: 20%;
     margin: 100px auto;
-    max-width: 935px;
+    max-width: 1000px;
     justify-content: center;
     align-items: center;
 }
+
+/*##############################*/
+/*MAIN LAYER*/
+/*##############################*/
+
+/*APPEARANCE OF THE HEADER'S*/
 header {
     background-color: rgb(255, 240, 155);
     padding: 10px 0px 10px 0px;
@@ -15,13 +26,7 @@ header {
     border-radius: 5px;
 }
 
-h3 {
-    background-color: rgb(255, 155, 217);
-    padding: 10px 0px 10px 0px;
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 5px;
-}
-
+/*APPEARANCE OF THE HEADER*/
 h1 {
     font-family: 'Quicksand', sans-serif;
     font-size: 60px;
@@ -29,30 +34,72 @@ h1 {
     color: black;
 }
 
-h2 {
+/*##############################*/
+/*SECTION LAYER*/
+/*##############################*/
+
+/*TYPOGRAPHIC SYSTEMS*/
+.section-one {
+    border: 1px solid black;
+    background-color: rgb(255, 240, 155);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/*CARP POSTER*/
+.section-two {
+    border: 1px solid black;
+    background-color: rgb(255, 240, 155);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/*WORKSHEET WORK*/
+.section-three {
+    border: 1px solid black;
+    background-color: rgb(255, 240, 155);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/*REFLECTIVE WRITING*/
+.section-four {
+    border: 1px solid black;
+    background-color: rgb(255, 240, 155);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/*SUB HEADINGS*/
+.section-five {
+    background-color: rgb(255, 240, 155);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/*##############################*/
+/*P CLASS TEXT*/
+/*##############################*/
+
+/*APPEARANCE OF TEXT IN MOST OF THE MAIN BODY*/
+.caption {
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.sub-titles {
     font-family: 'Quicksand', sans-serif;
     font-size: 40px;
     text-align: center;
     color: black;
 }
 
-.section-one {
-    border: 1px solid black;
-    background-color: rgb(255, 240, 155);
-    border-radius: 5px;
-}
+/*##############################*/
+/*CONTAINER LAYER*/
+/*##############################*/
 
-.section-two {
-    border: 1px solid black;
-    background-color: rgb(255, 240, 155);
-    border-radius: 5px;
-}
-
-.caption {
-    font-size: 15px;
-    font-family: 'Nunito', sans-serif;
-}
-
+/*TYPOGRAPHIC SYSTEMS WORK*/
 .container > div {
     display: flex;
     flex-direction: row;
@@ -61,6 +108,7 @@ h2 {
     align-items: baseline;
 }
 
+/*CARP POSTER 1 AND 3*/
 .containerleft > div {
     display: flex;
     flex-direction: row;
@@ -69,6 +117,7 @@ h2 {
     align-items: baseline;
 }
 
+/*CARP POSTER 2 AND THE FINAL CARP POSTER*/
 .containerright > div {
     display: flex;
     flex-direction: row;
@@ -77,44 +126,66 @@ h2 {
     align-items: baseline;
 }
 
-.typosym1 {
+/*##############################*/
+/*FIRST DIV CLASS LAYER*/
+/*##############################*/
+
+/*TYPOGRAPHIC SYSTEMS WORK*/
+.typographic-systems > div {
+    width: 283px;
+    margin-right: 16px;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+/*CARP POSTER 1 AND 3*/
+.carp-poster > div {
+    width: 1000px;
+    height: 650px;
+    margin: 16px;
+}
+
+.screenshots-worksheets > div {
+    width: 964px;
+    margin: 16px;
+}
+
+/*##############################*/
+/*IMAGE CLASS LAYER*/
+/*##############################*/
+
+/*THE TYPOGRAPHIC SYSTEMS*/
+.typosym {
     width: 275px;
     height: 275px;
 }
 
-.typographic-systems > div {
-    width: 283px;
-    margin: 16px;
+/*THE TYPOGRAPHIC SYSTEMS*/
+.screenshotUno {
+    width: 964px;
+    height: 545px;
 }
 
-.carp-poster1 > div {
-    width: 900px;
-    height: 650px;
-    margin: 16px;
+.screenshotDos {
+    width: 964px;
+    height: 4929px;
 }
 
-.carp-poster2 > div {
-    width: 900px;
-    height: 650px;
-    margin: 16px;
+.screenshotTres {
+    width: 964px;
+    height: 4151px;
 }
 
-img {
-    border: 1px solid black;
-    /*float: left;
-    margin-right: 10px;
-    margin-bottom: 10px;*/
-
-}
-
+/*FIRST POSTER IDEA AND THIRD POSTER IDEA*/
 .carpposter1 {
-    width: 458px;
+    width: 456px;
     height: 648px;
     float: left;
     margin-right: 20px;
     margin-bottom: 10px;
 }
 
+/*SECOND POSTER IDEA AND FINAL POSTER */
 .carpposter2 {
     width: 458px;
     height: 648px;
@@ -123,8 +194,19 @@ img {
     margin-bottom: 10px;
 }
 
-/*???????????????????????*/
+/*##############################*/
+/*IMAGE INFORMATION*/
+/*##############################*/
 
+img {
+    border: 1px solid black;
+}
+
+/*##############################*/
+/*BUTTON INFORMATION*/
+/*##############################*/
+
+/*PLACEMENT OF BUTTONS*/
 .container-navigation {
     display: flex;
     flex-wrap: wrap;
@@ -133,39 +215,14 @@ img {
     justify-content: center;
 }
 
-.push {
-    margin-left: auto;
+/*MODDIFICATION OF BUTTON APPEARANCE*/
+/*HELPED BY CHATGPT##################################################################*/
+.container-navigation button a {
+    text-decoration: none;
+    color: inherit;
 }
 
-li {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px;
-    margin: 0px 3px;
-    border: 1px solid limegreen;
-    border-radius: 10px;
-    background-color: aliceblue;
-
-}
-
-.media-container {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    padding: 15px 25px 15px 15px
-
-}
-
-.media-container .mediacontent {
-    flex: 1;
-    padding: 10px;
-}
-
-.mediacontent {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: navy;
-    font-size: 20 px;
-}
-
+/*APPEARANCE OF THE BUTTON*/
 button {
     border: 1px solid rgb(0, 0, 0);
     background-color: #ffc6d0;
@@ -176,57 +233,12 @@ button {
     margin: 2px;
 }
 
+/*COLOUR OF BUTTON WHEN HOVERED OVER*/
 button:hover {
     background-color: #eb92a2;
 }
 
+/*COLOUR OF BUTTON WHEN PRESSED*/
 button:active {
     background-color: #c73e57;
-}
-
-.button-one-section {
-
-    background-color: #BF0426;
-    padding: 20px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.button-top-img {
-    border: 3px solid rgb(255, 29, 29);
-    border-radius: 10px;
-    box-shadow: 10px 10px 20px black;
-    width: 70%;
-}
-
-.text {
-    clear: left;
-}
-
-/*
-
-p {
-    font-family: monospace;
-    font-size: center;
-    color: lightpink;
-}
-
-h1,h2,h3,h4,h5,h6 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: lightyellow;
-    font-style: italic;
-    text-align: right;
-}
-
-/* THE CAKE PART (^.^) */
-
-/*
-
-.cake-text {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: left;
-    color: white;
-    font-size: 25px;
-    font-weight: bold;
 }
