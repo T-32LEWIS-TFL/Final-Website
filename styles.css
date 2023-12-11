@@ -141,12 +141,12 @@ h1 {
 /*CARP POSTER 1 AND 3*/
 .carp-poster > div {
     width: 1000px;
-    height: 650px;
+    height: auto;
     margin: 16px;
 }
 
 .screenshots-worksheets > div {
-    width: 964px;
+    max-width: 964px;
     margin: 16px;
 }
 
@@ -162,24 +162,28 @@ h1 {
 
 /*THE TYPOGRAPHIC SYSTEMS*/
 .screenshotUno {
+    max-width: 100%;
     width: 964px;
-    height: 545px;
+    height: auto;
 }
 
 .screenshotDos {
+    max-width: 100%;
     width: 964px;
-    height: 4929px;
+    height: auto;
 }
 
 .screenshotTres {
+    max-width: 100%;
     width: 964px;
-    height: 4151px;
+    height: auto;
 }
 
 /*FIRST POSTER IDEA AND THIRD POSTER IDEA*/
 .carpposter1 {
+    max-width: 100%;
     width: 456px;
-    height: 648px;
+    height: auto;
     float: left;
     margin-right: 20px;
     margin-bottom: 10px;
@@ -187,8 +191,9 @@ h1 {
 
 /*SECOND POSTER IDEA AND FINAL POSTER */
 .carpposter2 {
+    max-width: 100%;
     width: 458px;
-    height: 648px;
+    height: auto;
     float: right;
     margin-left: 20px;
     margin-bottom: 10px;
